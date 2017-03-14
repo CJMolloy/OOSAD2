@@ -1,4 +1,4 @@
-public class FileLogger {
+public class FileLogger implements Logger{
 
 	private static FileLogger logger;
 
