@@ -1,20 +1,29 @@
 public class Guardian {
 
-	private int name;
-	private int state;
-
-	/**
-	 * 
-	 * @param name
-	 */
-	public void setWardName(Ward name) {
-		// TODO - implement Guardian.setWardName
-		throw new UnsupportedOperationException();
+	private String name;
+	private String ward;
+	
+	public Guardian(){
+		name = " ";
+		ward = " ";
 	}
 
-	public Ward createWard() {
+	public Guardian(String n, String w){
+		name = n;
+		ward = w;
+	}
+	
+	public void setWardName(String w) {
+		// TODO - implement Guardian.setWardName
+		throw new UnsupportedOperationException();
+		ward = w;
+		
+	}
+
+	public String getWard() {
 		// TODO - implement Guardian.createWard
 		throw new UnsupportedOperationException();
+		return ward;
 	}
 
 }
